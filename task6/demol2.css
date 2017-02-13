@@ -1,0 +1,171 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:62.5%;
+    font-family: 微软雅黑;
+}
+.wrap{
+    max-width:72rem;
+    margin:0 auto;
+    background-color:#29bde0;
+}
+.header{
+    position:relative;
+    padding:2% 0;
+}
+.icon-menu{
+    position:absolute;
+    top:20%;
+    left:5%;
+    width:6%;
+
+}
+.header h2{
+    width:100%;
+    text-align: center;
+    font-size: 3rem;
+    color:white;
+    font-weight: normal;
+}
+.icon-close{
+    position:absolute;
+    top:20%;
+    right:5%;
+    width:6%;
+}
+.msg {
+    position:relative;
+    background-color:#b9e9f5;
+}
+.msg p{
+    padding:5%;
+    font-size: 2rem;
+    font-weight: normal;
+}
+.icon-play{
+    position:absolute;
+    top:20%;
+    right:5%;
+    width:10%;
+    cursor: pointer;
+}
+.triangle-down{
+    position:absolute;
+    top:100%;
+    left:10%;
+
+}
+.triangle-down div{
+    width: 0rem;
+    height: 0rem;
+    color: white;
+    text-align: center;
+    border-top: 2rem solid #b9e9f5;
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+}
+.content{
+
+}
+.msg-click{
+    font-size:2rem;
+    padding:5%;
+    color:white;
+}
+.big-box{
+    overflow: hidden;
+}
+.small-box{
+    float:left;
+    width:20%;
+    margin:1% 6.5%;
+}
+.small-box-msg{
+    width:100%;
+    border:solid 0.4rem white;
+    margin:5% 0 10% 0;
+}
+.small-box-person{
+    padding:20% 0;
+    text-align: center;
+    font-size:2rem;
+    background-color:#f5c97b;
+
+}
+.small-box-num{
+    text-align: center;
+    font-size:1.5rem;
+    background-color:#83b09a;
+}
+.small-box-icon{
+    list-style-type: none;
+    padding: 8% 0;
+    background:url(images/icon-means.png) no-repeat;
+    background-size: 100%;
+    opacity:0;/*透明度0-1*/
+}
+.small-box-icon li{
+    display: inline-block;
+}
+.icon-pen {
+    background-position: 0 0;
+}
+.icon-magnifying {
+    background-position: 34% 0;
+}
+.icon-aim {
+    background-position: 67% 0;
+}
+.icon.treat {
+    background-position: 100% 0;
+}
+.small-box:hover .small-box-icon{
+    opacity:100;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 72rem;
+    background: #29bde0;
+    margin: 0 auto;
+    text-align: center;
+    padding:1% 0;
+    border-top:1px solid #ffffff;
+}
+.btn{
+    width:80%;
+    background:#fbb435;
+    font-size: 2.5rem;
+    padding:3%;
+    margin:0 auto;
+    color:white;
+}
+.blank_footer{
+    width: 100%;
+    padding:8% 0;
+    clear: both;
+}
+@media screen and (max-width:321px){
+    html{
+        font-size: 30.5%;
+    }
+}
+@media screen and (max-width: 376px)and (min-width: 321px){
+    html{
+        font-size: 36.5%;
+    }
+}
+@media screen and (max-width: 414px) and (min-width: 376px){
+    html{
+        font-size: 38.5%;
+    }
+
+}
+@media screen and (max-width: 580px) and (min-width: 414px) {
+    html{
+        font-size: 42.5%;
+    }
+}

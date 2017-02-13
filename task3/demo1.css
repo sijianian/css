@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img{
+    width:auto;
+}
+body {
+    font-size: 62.5%;
+    font-family: "Hiragino Sans GB";
+}
+@media screen and (max-width:321px){
+    body{
+        font-size: 30.5%;
+    }
+}
+@media screen and (max-width: 376px)and (min-width: 321px){
+    body{
+        font-size: 36.5%;
+    }
+}
+@media screen and (max-width: 414px) and (min-width: 376px){
+    body{
+        font-size: 38.5%;
+    }
+
+}
+@media screen and (max-width: 580px) and (min-width: 414px){
+    body{
+        font-size: 42.5%;
+    }
+
+}
+.contain {
+    width: 100%;
+    max-width: 64em;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    background-color: #22292c;
+    padding: 5%;
+}
+
+.headBack {
+    width: 3%;
+    position: absolute;
+    left: 3%;
+    top: 30%;
+    float: left;
+}
+
+.moreLogo {
+    width: 6%;
+    position: absolute;
+    right: 3%;
+    float: right;
+}
+
+.header a {
+    font-size: 2em;
+    color: white;
+    margin-left:2%;
+}
+
+.header span {
+    position: absolute;
+    left: 45%;
+    font-size: 3em;
+    color: white;
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    background-color: #68cdd5;
+    padding-top: 120%;
+}
+
+.backLogo {
+    width: 10%;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+
+.personLogo {
+    width: 12%;
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
+
+.mainLogo {
+    width: 35%;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.text {
+    line-height: 1.3em;
+    font-size: 2.5em;
+    color: white;
+    text-indent: 2em;
+    padding: 10% 20% 10% 20%;
+    position: absolute;
+    top: 35%;
+}
+
+.leftLogo {
+    width: 15%;
+    position: absolute;
+    top: 75%;
+    left: 17%;
+}
+
+.leftText {
+    font-size: 2em;
+    color: white;
+    width: 15%;
+    position: absolute;
+    top: 88%;
+    left: 18%;
+}
+
+.rightLogo {
+    width: 15%;
+    position: absolute;
+    top: 75%;
+    right: 17%;
+}
+
+.rightText {
+    font-size: 2em;
+    color: white;
+    width: 15%;
+    position: absolute;
+    top: 88%;
+    right: 16%;
+}

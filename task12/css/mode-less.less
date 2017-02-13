@@ -1,0 +1,283 @@
+@bgcolor-header-top: #1d7ad9;
+@bgcolor-header-nav: #f9f9f9;
+@bgcolor-footer-link: #f9f9f9;
+@bgcolor-footer-bottom: #1d7ad9;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 微软雅黑, Serif;
+  font-weight: normal;
+}
+
+.header-top {
+  background-color: @bgcolor-header-top;
+  p {
+    margin: 0;
+    padding: 3rem 0;
+    line-height: 2rem;
+    font-size: 2rem;
+    color: #ffffff;
+  }
+  .header-top-btn {
+    text-align: right;
+    height: 8rem;
+    button {
+      padding: 3rem;
+      font-size: 2rem;
+      line-height: 2rem;
+      margin: 0 -0.2rem;
+      color: white;
+      background-color: #1d7ad9;
+      border-left: solid 0.1rem #ffffff;
+      border-bottom: none;
+      border-right: solid 0.1rem #ffffff;
+      border-top: none;
+      &:hover {
+        background-color: white;
+        color: black;
+        cursor: pointer;
+      }
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .header-top-btn {
+      text-align: left;
+    }
+  }
+}
+
+.header-nav {
+  padding: 5rem 0;
+  background-color: @bgcolor-header-nav;
+  ul {
+    background-color: #f9f9f9;
+    list-style-type: none;
+    li {
+      padding: 1.5rem;
+      font-size: 2.5rem;
+      line-height: 3rem;
+      border-radius: 0.5rem;
+      &:hover {
+        background-color: #1d7ad9;
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.footer-link {
+  padding-top: 2rem;
+  background-color: @bgcolor-footer-link;
+  .footer-link-1 {
+
+    font-size: 1.5rem;
+    color: #999999
+  }
+  .footer-link-2 {
+    font-size: 1.5rem;
+    color: #999999;
+    list-style-type: none;
+    li {
+      width: 33%;
+      float: left;
+      &:hover {
+        color: blue;
+      }
+    }
+  }
+  .footer-link-3 {
+    font-size: 1.5rem;
+    color: #999999;
+    p {
+      float: right;
+    }
+    img {
+      float: right;
+      width: 7rem;
+      height: 7rem;
+    }
+    @media screen and (max-width: 767px) {
+      p, img {
+        float: left;
+      }
+    }
+  }
+}
+
+.footer-bottom {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: @bgcolor-footer-bottom;
+}
+
+.content-nav {
+  padding: 5rem 0;
+  list-style-type: none;
+  font-size: 1.5rem;
+  color: #cccccc;
+  li {
+    position: relative;
+    p {
+      padding: 2rem 3.5rem;
+      border-top: solid 0.4rem #cccccc;
+    }
+    .content-nav-num {
+      position: absolute;
+      top: -0.8rem;
+      left: 42%;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 1rem;
+      background-color: #cccccc;
+      color: white;
+      text-align: center;
+    }
+  }
+  .content-nav-1 {
+    .content-nav-1-p {
+      border-top: solid 0.4rem #ff7f02;
+      color: #ff7f02;
+    }
+    div {
+      background-color: #ff7f02;
+    }
+  }
+}
+
+.content-msg {
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  margin: 2rem 0;
+  border-left: solid 0.3rem #1d7ad9;
+}
+
+form {
+  background-color: #fbfcff;
+  overflow: hidden;
+  select {
+    float: right;
+    /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+    border: solid 0.1rem #e8e8e8;
+    color: #a9a9a9;
+    /*很关键：将默认的select选择框样式清除*/
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    /*在选择框的最右侧中间显示小箭头图片*/
+    background: url("../images/icon-arrow.png") no-repeat scroll right center transparent;
+    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+    padding-right: 2.4rem;
+  }
+  select::-ms-expand {
+    display: none;
+  }
+  .radio-style {
+    opacity: 0;
+  }
+  input[type="radio"] + span {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.4rem;
+    margin: 0 1rem;
+    border: solid 0.1rem black;
+    border-radius: 0.7rem;
+  }
+  input[type=radio]:checked + span {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.6rem;
+    margin: 0 1rem;
+    border: solid 0.5rem #1277dc;
+    border-radius: 0.8rem;
+  }
+  input[type=text] {
+    width: 6rem;
+    height: 1.7rem;
+  }
+}
+
+.step-msg {
+  padding: 1rem 0;
+  background-color: #f3f3f3;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: #1d7ad9;
+}
+
+.step-one {
+  font-size: 1.5rem;
+  .icon-type {
+    display: inline-block;
+    width: 2rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+    background: url("../images/icon-type.png") no-repeat;
+    background-size: 100%;
+  }
+  .form1 {
+    padding: 2rem 0;
+    margin: 0;
+  }
+}
+
+.step-two {
+  font-size: 1.5rem;
+  .icon-size {
+    display: inline-block;
+    width: 2rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+    background: url("../images/icon-size.png") no-repeat;
+    background-size: 100%;
+  }
+  .form2 {
+    padding: 3rem 0;
+    margin: 0;
+    label {
+      margin-right: 3rem;
+    }
+  }
+}
+
+.step-three {
+  font-size: 1.5rem;
+  .icon-texture {
+    display: inline-block;
+    width: 2rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+    background: url("../images/icon-texture.png") no-repeat;
+    background-size: 65%;
+  }
+  .form3 {
+    padding: 4rem 0;
+    margin: 0;
+  }
+}
+
+.content-bottom {
+  padding: 10rem 0;
+  text-align: center;
+  .btn-next {
+    width: 20%;
+    line-height: 3rem;
+    border: none;
+    font-size: 2rem;
+    padding: 1rem 0;
+    background-color: #e15053;
+    color: white;
+    border-radius: 0.5rem;
+  }
+}
+
+
+

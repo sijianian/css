@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 微软雅黑, Serif;
+    font-weight: normal;
+}
+
+.wrap {
+    min-width: 96rem;
+    max-width: 150rem;
+    background-color: #ffffff;
+}
+
+.header {
+
+}
+
+.header-top {
+    position: relative;
+    padding: 4rem 0;
+    background-color: #1d7ad9;
+}
+
+.header-top P {
+    position: absolute;
+    top: 0rem;
+    left: 10%;
+    padding: 3rem;
+    line-height: 2rem;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.header-top div {
+    position: absolute;
+    top: 0rem;
+    right: 10%;
+}
+
+.header-top div button {
+    padding: 2.5rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin: 0 -0.2rem;
+    color: white;
+    background-color: #1d7ad9;
+    border-left: solid 0.1rem #ffffff;
+    border-bottom: none;
+    border-right: solid 0.1rem #ffffff;
+    border-top: none;
+}
+
+.header-top div button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.header-nav {
+    position: relative;
+    padding: 5rem 0;
+    background-color: #f9f9f9;
+}
+
+.header-nav ul {
+    position: absolute;
+    top: 0rem;
+    right: 10%;
+    background-color: #f9f9f9;
+    list-style-type: none;
+}
+
+.header-nav ul li {
+    float: left;
+    margin: 2rem 0rem 2rem 2rem;
+    padding: 1.5rem;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    border-radius: 0.5rem;
+}
+
+.header-nav ul li:hover {
+    background-color: #1d7ad9;
+    color: white;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #f9f9f9;
+
+}
+
+.footer-link {
+    position: relative;
+    padding: 7rem 0;
+}
+
+.footer-link-1 {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 1.5rem;
+    color: #999999
+}
+
+.footer-link-2 {
+    width: 20%;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-size: 1.5rem;
+    color: #999999;
+    list-style-type: none;
+}
+
+.footer-link-2 li {
+    width: 33%;
+    float: left;
+}
+
+.footer-link-2 li:hover {
+    color: blue;
+}
+
+.footer-link-3 {
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    font-size: 1.5rem;
+    color: #999999
+}
+
+.footer-link-3 p {
+    float: right;
+}
+
+.footer-link-3 img {
+    float: right;
+    width: 7rem;
+    height: 7rem;
+}
+
+.footer-bottom {
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #ffffff;
+    background-color: #1d7ad9;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content-nav {
+    float: right;
+    padding: 5rem 0;
+    list-style-type: none;
+    font-size: 1.5rem;
+    color: #cccccc;
+}
+
+.content-nav li {
+    position: relative;
+    float: left;
+}
+
+.content-nav-1 .content-nav-1-p {
+    border-top: solid 0.4rem #ff7f02;
+    color: #ff7f02;
+}
+
+.content-nav-1 div {
+    background-color: #ff7f02;
+}
+
+.content-nav li p {
+    padding: 2rem 4rem;
+    border-top: solid 0.4rem #cccccc;
+}
+
+.content-nav-num {
+    position: absolute;
+    top: -0.8rem;
+    left: 42%;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background-color: #cccccc;
+    color: white;
+    text-align: center;
+}
+
+.content-msg {
+    clear: both;
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    margin: 2rem 0;
+    border-left: solid 0.3rem #1d7ad9;
+}
+
+.step-one {
+    font-size: 1.5rem;
+}
+
+.step-msg {
+    padding: 1rem;
+    background-color: #f3f3f3;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #1d7ad9;
+}
+
+.icon-type {
+    display: inline-block;
+    width: 2rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+    background: url("../images/icon-type.png") no-repeat;
+    background-size: 100%;
+}
+
+form {
+    background-color: #fbfcff;
+    overflow: hidden;
+}
+
+select {
+    float: right;
+}
+
+.radio-style {
+    opacity: 0;
+}
+
+input[type="radio"] + span {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.4rem;
+    margin: 0 1rem;
+    border: solid 0.1rem black;
+    border-radius: 0.7rem;
+}
+
+input[type=radio]:checked + span {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.6rem;
+    margin: 0 1rem;
+    border: solid 0.5rem #1277dc;
+    border-radius: 0.8rem;
+}
+input[type=text]{
+    width:10rem;
+    height:1.7rem;
+}
+select {
+    /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+    border: solid 0.1rem #e8e8e8;
+    color: #a9a9a9;
+    /*很关键：将默认的select选择框样式清除*/
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    /*在选择框的最右侧中间显示小箭头图片*/
+    background: url("../images/icon-arrow.png") no-repeat scroll right center transparent;
+
+    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+    padding-right: 2.4rem;
+}
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand {
+    display: none;
+}
+
+.step-two {
+    font-size: 1.5rem;
+}
+
+.icon-size {
+    display: inline-block;
+    width: 2rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+    background: url("../images/icon-size.png") no-repeat;
+    background-size: 100%;
+}
+
+.step-three {
+    font-size: 1.5rem;
+}
+
+.form1 {
+    padding: 2rem 0;
+}
+
+.form2 {
+    padding: 3rem 0;
+}
+
+.form2 label {
+    margin-right: 3rem;
+}
+
+.form3 {
+    padding: 4rem 0;
+}
+
+.form3 label {
+    margin-right: 3rem;
+}
+.content-bottom{
+    padding:10rem 0;
+    text-align: center;
+}
+.btn-next{
+    width:15%;
+    border:none;
+    padding:1rem 3rem;
+    font-size: 2rem;
+    background-color:#e15053;
+    color: white;
+    border-radius: 0.5rem;
+}
+

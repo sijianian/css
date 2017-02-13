@@ -1,0 +1,168 @@
+.content {
+    width: 96rem;
+    margin: 0 auto;
+}
+.content-nav{
+    padding:3rem 0;
+    border-bottom: solid 0.15rem #999999;
+}
+.content-nav-1{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:black;
+}
+.content-nav-2{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #29b078;
+}
+.content-nav-1:visited{
+    color:black;
+}
+.content-nav-1:hover{
+    color: #29b078;
+}
+.content-mainnav{
+    list-style-type: none;
+    font-size: 1.5rem;
+    overflow: hidden;
+    padding:2rem 0;
+    border-bottom: solid 0.15rem #edf1f2;
+}
+.content-mainnav-1{
+    float:left;
+    margin:0 2rem;
+    padding:0.25rem;
+    font-size:1.2rem;
+    color:#999999;
+}
+.content-mainnav li{
+    float:left;
+    margin-right:4rem;
+    text-align: center;
+}
+.content-mainnav li:hover{
+    background-color: #29b078;
+    color:white;
+    cursor: pointer;
+}
+.content h2{
+    font-size: 1.5rem;
+    padding:2rem 0;
+    border-bottom: solid 0.15rem #999999;
+}
+.content-one{
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+.content-one-ul{
+    position: relative;
+    display: inline-block;
+    width:30rem;
+    margin:0.8rem;
+    list-style-type: none;
+    background-color:#ffffff;
+    box-shadow: 0.1rem 0.1rem 0.1rem #e6e6e6;
+}
+.content-one-ul li{
+}
+.content-one-ul-li1{
+    overflow: hidden;
+    font-size: 1.2rem;
+    border-bottom: solid 0.1rem #edf1f2;
+}
+.icon-avatar{
+    float:left;
+    width: 10rem;
+    height:10rem;
+    margin:1rem;
+    background: url(../images/icon-avatar.png) no-repeat;
+    background-size: 100%;
+}
+.content-one-ul-li1 h3{
+    padding:1rem;
+}
+.content-one-ul-li1 p{
+
+}
+.content-one-ul-li2{
+
+}
+.content-one-ul-li2 ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.content-one-ul-li2 ul li
+{
+    width:12.9rem;
+    float:left;
+    color:#999999;
+    font-size:1.1rem ;
+    border-bottom: solid 0.1rem #edf1f2;
+    border-right: solid 0.1rem #edf1f2;
+    padding:1rem;
+}
+.span1{
+    color:red;
+}
+.content-one-ul-li2 ul li .span2{
+    color: black;
+}
+.content-one-ul-li3{
+    overflow: hidden;
+}
+.content-one-ul-li3-span{
+    float:left;
+    width:9.9rem;
+    padding:4.65rem 0;
+    text-align: center;
+    border-bottom: solid 0.1rem #edf1f2;
+    border-right: solid 0.1rem #edf1f2;
+}
+.content-one-ul-li3 p{
+    float:left;
+    width:17.9rem;
+    border-bottom: solid 0.1rem #edf1f2;
+    border-right: solid 0.1rem #edf1f2;
+    padding:1rem;
+}
+.content-one-ul-li4{
+    border-bottom: solid 0.1rem #edf1f2;
+    border-right: solid 0.1rem #edf1f2;
+    padding:1rem;
+}
+.content-one-ul-li5{
+    color:#999999;
+    border-bottom: solid 0.1rem #edf1f2;
+    border-right: solid 0.1rem #edf1f2;
+    padding:1rem;
+}
+.behind {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    color: white;
+    transform: rotateY(-180deg);
+    backface-visibility: hidden;
+    background: rgba(0, 0, 0, 0.8);
+}
+.content-one-ul:hover li.behind {
+    transform: rotateY(0deg);
+    transition: 1s;
+}
+.behind ul li {
+    line-height: 2.2rem;
+}
+.behind ul li h3 {
+    padding-top: 4rem;
+    text-align: center;
+    border-bottom: none;
+}
+.behind ul li p {
+    padding: 0 5rem;
+    text-indent: 2rem;
+    text-align: left;
+}

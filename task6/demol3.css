@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Microsoft YaHei", serif;
+}
+
+.wrap {
+    max-width: 72rem;
+    margin: 0 auto;
+    background-color: #29bde0;
+}
+
+.header {
+    position: relative;
+    padding: 3% 0;
+}
+
+.header h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: white;
+}
+
+.icon-home {
+    width:10%;
+    position: absolute;
+    top: 20%;
+    left: 4%;
+}
+
+.icon-hint {
+    width:10%;
+    position: absolute;
+    top: 20%;
+    right: 4%;
+}
+
+.win {
+    text-align: center;
+}
+
+.win img {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.win-msg {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffc865;
+    padding: 2% 0;
+}
+
+.game-msg {
+
+}
+
+.game-msg p {
+    width: 60%;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: normal;
+    color: white;
+}
+
+.game-detail {
+    background-color: #ffffff;
+    border-bottom: solid 0.2rem #a6a6a6;
+}
+
+.game-detail h2 {
+    width: 60%;
+    margin: 0 auto;
+    padding: 1% 0;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.game-detail span {
+    float: right;
+    margin: 0 auto;
+    padding: 1% 0;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #a6a6a6;
+}
+
+.game-detail p {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1% 0;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 72rem;
+    background-color: #99dff0;
+    opacity: 0.85;
+}
+
+.btn-again {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    padding: 2%;
+    font-size: 3.5rem;
+    text-align: center;
+    color: white;
+    border-radius: 1rem;
+    background-color: #f66f6f;
+}
+
+.btn-share {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    padding: 2%;
+    font-size: 3.5rem;
+    text-align: center;
+    color: white;
+    border-radius: 1rem;
+    background-color: #fbb435;
+}
+
+.blank-footer {
+    width: 100%;
+    padding: 8% 0;
+    background-color: white;
+}
+
+@media screen and (max-width: 321px) {
+    html {
+        font-size: 30.5%;
+    }
+}
+
+@media screen and (max-width: 376px)and (min-width: 321px) {
+    html {
+        font-size: 36.5%;
+    }
+}
+
+@media screen and (max-width: 414px) and (min-width: 376px) {
+    html {
+        font-size: 38.5%;
+    }
+
+}
+
+@media screen and (max-width: 580px) and (min-width: 414px) {
+    html {
+        font-size: 42.5%;
+    }
+}

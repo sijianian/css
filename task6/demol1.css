@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size:62.5%;
+    font-family: 微软雅黑;
+    font-weight: normal;
+}
+.wrap{
+    max-width:72em;
+    margin:0 auto;
+    background-color:#f0f0f0;
+}
+.header{
+    position:relative;
+    padding:4% 0;
+    background-color:#29bde0;
+}
+.icon-more{
+    position:absolute;
+    top:25%;
+    left:3%;
+    width:5%;
+}
+.content{
+    position:relative;
+    padding:5%;
+}
+.title-last-g{
+    position:relative;
+    background:#ffffff;
+    padding:5% 3%;
+    margin-bottom: 5%;
+    border:solid 0.1em #9a9a9a;
+}
+.title-last-g h2{
+    text-align: center;
+    font-size:3em;
+    font-weight: normal;
+    color:#9a9a9a;
+    width:100%;
+}
+.title-last-g-goto{
+    position: absolute;
+    top:30%;
+    right:5%;
+    width:4%;
+}
+.title-g{
+    background:#ffffff;
+    padding:5% 3%;
+    border-bottom:solid 0.1em #fbb435;
+}
+.title-g h2{
+    text-align: center;
+    font-size:3em;
+    font-weight: normal;
+    color:#fbb435;
+    width:100%;
+}
+.tag-g-vs{
+    background:#ffffff;
+}
+.tag-g-vs button{
+    background:#29bde0;
+    font-size: 2.5em;
+    border:none;
+    padding:6% 10%;
+    margin:2% 7%;
+    width:86%;
+    color:white;
+}
+.tag-g-vs p{
+    text-align: center;
+    font-size: 2em;
+    padding:2% 0;
+    color:#787878;
+}
+.footer{
+    text-align: center;
+    background:#ffffff;
+}
+.icon-circle{
+    width:20%;
+}
+.border{
+    border:solid 0.1em #9a9a9a;
+}
+.icon-goto-y{
+    position: absolute;
+    top:57.5%;
+    right:6%;
+    width:4%;
+}
+.triangle-left{
+    width: 0px;
+    height: 0px;
+    color: white;
+    text-align: center;
+    border-top: 1.5em solid transparent;
+    border-left: 2em solid #fbb435;
+    border-bottom: 1.5em solid transparent;
+}
+@media screen and (max-width:321px){
+    body{
+        font-size: 30.5%;
+    }
+}
+@media screen and (max-width: 376px)and (min-width: 321px){
+    body{
+        font-size: 36.5%;
+    }
+}
+@media screen and (max-width: 414px) and (min-width: 376px){
+    body{
+        font-size: 38.5%;
+    }
+
+}
+@media screen and (max-width: 580px) and (min-width: 414px){
+    body{
+        font-size: 42.5%;
+    }
+
+}

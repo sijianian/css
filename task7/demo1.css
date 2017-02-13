@@ -1,0 +1,296 @@
+.content {
+    width: 96rem;
+    margin: 0 auto;
+}
+
+.content-one {
+    padding-top: 10rem;
+    overflow: hidden;
+}
+
+.content-one-rocket {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.content-one-rocket img {
+    height: 5rem;
+    padding: 2rem 0;
+}
+
+.content-one-rocket h2 {
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+
+.content-one-rocket p {
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    color: #999999
+}
+
+.content-one-book {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.content-one-book img {
+    height: 5rem;
+    padding: 2rem 0;
+}
+
+.content-one-book h2 {
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+
+.content-one-book p {
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    color: #999999
+}
+
+.content-one-per {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.content-one-per img {
+    height: 5rem;
+    padding: 2rem 0;
+}
+
+.content-one-per h2 {
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+
+.content-one-per p {
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    color: #999999
+}
+
+.content-one-pernum {
+    float: left;
+    width: 25%;
+    padding-top: 8rem;
+    text-align: center;
+}
+
+.content-one-pernum div {
+    margin-left: 5rem;
+    padding-top: 2rem;
+    text-align: left;
+}
+
+.content-one-pernum span {
+    font-size: 1.5rem;
+    color: #29b078;
+}
+
+.content-one-pernum p {
+    font-size: 1.5rem;
+    color: #999999
+}
+
+.content-two {
+    padding-top: 10rem;
+}
+
+.content-two h2 {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.content-two-ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding-top: 3rem;
+}
+
+.content-two-ul li {
+    float: left;
+    width: 25%;
+    overflow: hidden;
+}
+
+.icon-circle {
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    width: 6rem;
+    height: 6rem;
+    margin-right: 1.5rem;
+    font-size: 1.8rem;
+    line-height: 7rem;
+    text-align: center;
+    color: #29b078;
+    background: #fff;
+    border-radius: 3rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #e6e6e6;
+}
+
+.content-two-ul p {
+    float: left;
+    width: 42%;
+    padding: 2rem 0;
+    font-size: 1rem;
+    color: #999999;
+}
+
+.content-two-ul img {
+    display: inline-block;
+    float: left;
+    padding: 3rem 1rem;
+}
+
+.content-three {
+    padding-top: 10rem;
+    overflow: hidden;
+}
+
+.content-three h2 {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.content-three ul {
+    background-color: #ffffff;
+    list-style-type: none;
+
+}
+
+.content-three ul li {
+    float: left;
+    width: 21%;
+    margin: 0 2%;
+    text-align: center;
+    box-shadow: 0.1rem 0.1rem 0.1rem #e6e6e6;
+}
+
+.icon-avatar {
+    padding-top: 2rem;
+}
+
+.content-three-name {
+    padding-top: 2rem;
+    font-size: 1.4rem;
+}
+
+.content-three-msg {
+    padding: 2rem;
+    text-align: left;
+    font-size: 1.2rem;
+    color: #999999;
+}
+
+.icon-circle-four {
+    display: block;
+    padding: 2rem 0;
+    width: 5%;
+    margin: 0 auto;
+}
+
+.content-four {
+    padding-top: 10rem;
+}
+
+.content-four h2 {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.content-four-ul {
+    background-color: #ffffff;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.content-four-ul li {
+    float: left;
+    width: 16%;
+    margin-left: 4%;
+    text-align: center;
+}
+
+.content-four-ul li img {
+
+}
+
+.content-five {
+    padding-top: 10rem;
+    height: 15rem;
+}
+
+.content-five h2 {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.content-five ul {
+    width: 100%;
+    color: #999999;
+    overflow: hidden;
+}
+
+.content-five ul li {
+    float: left;
+    width: 8%;
+    margin: 1rem 0 0 2%;
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: solid 0.2rem white;
+}
+
+.content-five ul li:hover {
+    border-bottom: solid 0.2rem #29b078;
+}
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    min-height: 425px;
+    margin: 0 auto;
+}
+
+.carousel-icon {
+    position: absolute;
+    transition: all 0.5s ease-in 0s;
+}
+
+.carousel .banner {
+    float: left;
+    text-align: center;
+}
+
+.carousel .banner img {
+    width: 100%;
+}
+
+.button {
+    text-align: center;
+    border: none;
+}
+
+.pre {
+    position: absolute;
+    top: 44%;
+    left: 10%;
+    width: 27px;
+    height: 46px;
+    background: url("images/icon-goto-left.png") no-repeat;
+}
+
+.next {
+    position: absolute;
+    top: 44%;
+    right: 10%;
+    width: 27px;
+    height: 46px;
+    background: url("images/icon-goto-right.png") no-repeat;
+}

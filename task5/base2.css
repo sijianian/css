@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size:62.5%;
+}
+img{
+    max-width:100%;
+}
+.wrap {
+    max-width: 720px;
+    margin:0 auto;
+    font-family: "Microsoft YaHei", serif;
+}
+.header{
+    position:relative;
+    padding:2% 0;
+    background-color:#5fc0cd;
+    text-align: center;
+    overflow: hidden;
+}
+.btn{
+    float:left;
+    width:100%;
+}
+.nav-employer{
+    font-size:3.5em;
+    border: 1px solid #5fc0ce;
+    border-radius: 10%;
+    background-color:#55a8b3;
+    color:white;
+    padding:2%;
+}
+.nav-nur{
+    margin-left:-2.5%;
+    font-size:3.5em;
+    border: 1px solid #5fc0ce;
+    border-radius: 10%;
+    background-color:#ffffff;
+    color:#5fc0cd;
+    padding:2%;
+}
+.icon-place-2{
+    position: absolute;
+    top:28%;
+    right:4%;
+    width:7%;
+}
+.subnav {
+    overflow: hidden;
+}
+.subnav-msg{
+    float:left;
+    width:29%;
+    font-size:3em;
+    color:#999999;
+    padding:2%;
+    text-align: center;
+}
+.content{
+
+}
+.content ul{
+    list-style-type: none;
+    font-size:2.4em;
+}
+.content ul li{
+    position:relative;
+    padding:12% 0;
+    border-top:solid 0.01em #999999;
+}
+.detail{
+    position:absolute;
+    top:15%;
+    left:3%;
+    width:50%;
+}
+.detail-serve{
+    color:#999999;
+    padding-top:2%;
+}
+.detail-date{
+    padding:2% 0 0 12%;
+    color:black;
+}
+.detail-place{
+    color:#999999;
+    padding-top:1%;
+}
+.detail-place img{
+    margin-right:3%;
+}
+.price{
+    position: absolute;
+    top:20%;
+    right:3%;
+    color:red;
+    width:20%;
+    padding:3% 3%;
+}
+.price-img{
+    float:right;
+    width:12%;
+}
+.price-msg{
+    width:100%;
+}
+.footer{
+    position:fixed;
+    bottom:0;
+    background-color:#f8fafb;
+    border-top:solid 0.1em #999999;
+    width:100%;
+    max-width: 720px;
+}
+.icon-home-p{
+    position:absolute;
+    top:20%;
+    left:5%;
+    width:10%;
+}
+.icon-write-p{
+    width:100%;
+    text-align: center;
+}
+.icon-write{
+    width:15%;
+}
+.icon-private-p{
+    position:absolute;
+    top:20%;
+    right:5%;
+    width:10%
+}
+@media screen and (max-width:321px){
+    body{
+        font-size: 30.5%;
+    }
+}
+@media screen and (max-width: 376px)and (min-width: 321px){
+    body{
+        font-size: 36.5%;
+    }
+}
+@media screen and (max-width: 414px) and (min-width: 376px){
+    body{
+        font-size: 38.5%;
+    }
+
+}
+@media screen and (max-width: 580px) and (min-width: 414px){
+    body{
+        font-size: 42.5%;
+    }
+
+}

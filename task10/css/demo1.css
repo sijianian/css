@@ -1,0 +1,166 @@
+h2{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.carousel{
+    position: relative;
+}
+.icon-goto-left{
+    position: absolute;
+    top: 44%;
+    left: 10%;
+    width: 27px;
+    height: 46px;
+    background: url("../images/icon-goto-left.png") no-repeat;
+}
+.icon-goto-right{
+    position: absolute;
+    top: 44%;
+    left: 90%;
+    width: 27px;
+    height: 46px;
+    background: url("../images/icon-goto-right.png") no-repeat;
+}
+.content-one{
+    padding-top: 10rem;
+}
+.content-one p{
+    color:#999999;
+}
+.content-one-rocket{
+
+}
+.content-one-rocket img{
+    height:6rem;
+    margin:0 auto;
+}
+.content-one-book{
+
+}
+.content-one-book img{
+    height:6rem;
+    width: 7rem;
+    margin:0 auto;
+}
+.content-one-per{
+
+}
+.content-one-per img{
+    height:6rem;
+    margin:0 auto;
+}
+.content-one-pernum{
+    padding-top:5rem;
+}
+.content-one-pernum img{
+    display: inline-block;
+}
+.content-one-pernum span{
+    color:#29b078;
+}
+.content-two{
+    padding-top: 10rem;
+}
+.content-two h2{
+
+}
+.content-two-ul{
+
+}
+.content-two-ul li{
+    height:10rem;
+    overflow: hidden;
+}
+.icon-circle {
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    width: 6rem;
+    height: 6rem;
+    margin-right: 1.5rem;
+    font-size: 1.8rem;
+    line-height: 7rem;
+    text-align: center;
+    color: #29b078;
+    background: #fff;
+    border-radius: 3rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem #e6e6e6;
+}
+.content-two-ul li p{
+    float: left;
+    width:50%;
+    padding: 2rem 0;
+    font-size: 1.5rem;
+    color: #999999;
+}
+.content-two-ul li img{
+    float:left;
+    padding: 2.5rem 1rem;
+}
+.content-three{
+    padding-top: 10rem;
+}
+.content-three ul{
+
+}
+.content-three ul li{
+    text-align: center;
+
+}
+.content-three ul li div{
+    width:96%;
+    margin:0 2%;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0.1rem 0.1rem 0.1rem #e6e6e6;
+}
+.icon-avatar {
+    padding-top: 2rem;
+}
+
+.content-three-name {
+    padding-top: 2rem;
+    font-size: 1.4rem;
+}
+
+.content-three-msg {
+    padding: 2rem;
+    text-align: left;
+    font-size: 1.4rem;
+    color: #999999;
+}
+.icon-circle-four {
+    display: block;
+    padding: 2rem 0;
+    width: 5%;
+    margin: 0 auto;
+}
+.content-four{
+    padding-top: 10rem;
+}
+.content-four ul{
+    background-color: #ffffff;
+    padding:2rem 0;
+}
+.content-four-ul-li{
+    width:16%;
+    margin-left: 4%;
+    text-align: center;
+}
+.content-five{
+    padding-top: 10rem;
+}
+.content-five-link{
+    background-color:#ffffff;
+}
+.content-five ul{
+    color: #999999;
+}
+.content-five ul li{
+    text-align: center;
+    font-size: 1.5rem;
+    border-bottom: solid 0.2rem white;
+}
+.content-five ul li:hover {
+    border-bottom: solid 0.2rem #29b078;
+}

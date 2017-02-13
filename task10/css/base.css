@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    background-color:#fafafa;
+}
+
+body {
+    font-family: "Microsoft YaHei", sans-serif;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header {
+}
+
+.header-top {
+}
+
+.header-top-r {
+    float: right;
+    text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+    .header-top-r {
+        float: left;
+    }
+}
+
+.header-top-l {
+    float: left;
+    font-size: 1.5rem;
+    color: #29b078;
+}
+
+.header-top-l ul {
+    list-style-type: none;
+}
+
+.icon-wx {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background: url("../images/icon-wx.png") no-repeat;
+}
+
+.icon-wb {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background: url("../images/icon-wb.png") no-repeat;
+}
+
+.icon-qq {
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    background: url("../images/icon-qq.png") no-repeat;
+}
+
+.header-bottom {
+    background-color: #29b078;
+}
+
+nav {
+    background-color: #29b078;
+}
+
+.header-bottom .logo {
+    color: #fff;
+}
+
+span.glyphicon.glyphicon-menu-hamburger {
+    font-size: 4rem;
+}
+
+.white {
+    border-bottom: 0.5rem solid #fff;
+}
+
+.green {
+    border-bottom: 0.5rem solid #29b078;
+}
+
+.nav li {
+    padding: 2rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.nav li:hover {
+    border-bottom: 0.5rem solid #fff;
+}
+
+.nav li a:hover {
+    background-color: #29b078;
+}
+
+input,button,a {
+    outline:0 none !important; blr:expression(this.onFocus=this.blur());
+}
+.footer{
+    margin-top:1rem;
+    padding-top:3rem;
+    background-color:#29b078;
+    color:white;
+}
+.footer-top-1{
+
+}
+.footer-top-1 p{
+    margin:3rem 0;
+}
+.footer-top-2{
+
+}
+.footer-top-2 p{
+    margin-left:1rem;
+}
+.footer-top-2 ul{
+
+}
+.footer-top-2 ul li{
+    display: inline-block;
+    margin:1rem 1rem;
+    border-bottom:solid 0.1rem #29b078;
+}
+.footer-top-2 ul li:hover{
+   border-color: white;
+}
+.footer-top-3{
+
+}
+.footer-bottom{
+    text-align: center;
+}
+@media screen and (max-width: 767px) {
+    .footer-top-3 img,.footer-top-3 p{
+        clear: both;
+        float: left;
+    }
+}
